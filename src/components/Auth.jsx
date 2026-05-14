@@ -58,7 +58,7 @@ const handleSubmit = (e) => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="w-full pl-12 pr-6 py-4 bg-gray-50 border-none rounded-2xl text-sm font-bold text-[#001f3f] focus:ring-2 focus:ring-blue-100 outline-none transition-all"
-                    placeholder="admin@example.com"
+                    placeholder="user@example.com"
                   />
                 </div>
               </div>
