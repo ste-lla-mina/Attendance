@@ -85,7 +85,7 @@ const handleSubmit = (e) => {
                 {isLoading ? (
                   <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                 ) : (
-                  <>Access Dashboard <LogIn size={18} /></>
+                  <>Login <LogIn size={18} /></>
                 )}
               </button>
             </form>
