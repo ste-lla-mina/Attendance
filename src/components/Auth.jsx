@@ -29,7 +29,7 @@ const handleSubmit = (e) => {
             />
           </div>
           <h1  className="text-6xl font-extrabold tracking-tight">StaffNet.</h1>
-          <p className="mt-4 text-blue-200 text-lg font-light italic">Secure Workforce & Discipline Management.</p>
+          <p className="mt-4 text-blue-200 text-lg font-light italic">Attendance Tracking Portal for representatives.</p>
           </div>
       </div>
       <div className="w-full lg:w-1/2 bg-[#f8fafc] flex items-center justify-center p-8 md:p-16">
