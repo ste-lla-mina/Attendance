@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Auth from './components/Auth';
 import Dashboard from './components/Dashboard';
+import LessonTracking from './components/LessonTracking';
 
 
 function App() {
@@ -24,14 +25,10 @@ function App() {
   }
 
   switch (activeSection) {
-    case 'tickets':
-      return <TicketSection onBack={() => setActiveSection('main')} />;
-    case 'money':
+    case 'teachers':
+      return <LessonTracking onBack={() => setActiveSection('main')} />;
+    case 'students':
       return <MoneySection onBack={() => setActiveSection('main')}  />;
-    case 'phones':
-      return <PhoneSection onBack={() => setActiveSection('main')}/>;
-    case 'attendance':
-      return <Attendance onBack={()=>setActiveSection('main')}/>;
     default:
       return (
         <Dashboard 
